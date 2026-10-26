@@ -2,6 +2,12 @@
 
 All notable Vecto Coder changes are recorded here. Versions follow SemVer. Stable releases use `X.Y.Z`; beta and test releases use `X.Y.Z-beta.N` and `X.Y.Z-test.N` and are packaged under separate extension identities.
 
+## 1.1.2
+
+- Retry automatic release checks after transient failures instead of suppressing retries for six hours.
+- Add a manual update check in chat settings; it remains available when automatic checks are disabled.
+- Align request token estimation, Git commit cleanup, and marketplace plugin/MCP integration with current implementation.
+
 ## 1.1.1
 
 - Refresh the marketplace and VSIX README with current installation, workflow, permissions, provider, and privacy guidance.

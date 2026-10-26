@@ -1,7 +1,7 @@
 {
   "channel": "beta",
   "extensionId": "developeraman.vecto-coder-beta",
-  "version": "1.1.1",
-  "file": "vecto-coder-beta-1.1.1.vsix",
-  "sha256": "a93a32857a73cd75e3c749bec0da94fb61bf81c799440572acd1164d1e40f99f"
+  "version": "1.1.2",
+  "file": "vecto-coder-beta-1.1.2.vsix",
+  "sha256": "485666e244b2630c880d6b82745ff27125a3f024658d7884499660fcac1e7813"
 }
