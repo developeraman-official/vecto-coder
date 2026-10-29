@@ -1,8 +1,6 @@
 VECTO CODER PROPRIETARY LICENSE
 
-Copyright (c) 2026 Developeraman. All rights reserved.
-Copyright (c) 2025 opencode
-Copyright (c) 2026 Kilo Code
+Copyright (c) 2026 Vecto Coder contributors. All rights reserved.
 
 This license applies only to original Vecto Coder software, documentation,
 branding, and other materials owned by Developeraman. Third-party components
