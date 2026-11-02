@@ -92,7 +92,7 @@ For beta or test, download the VSIX and choose **Install from VSIX** in the Exte
 3. Select a model and describe the outcome you want.
 4. Review tracked file edits in the editor and approve any proposed terminal command in chat.
 
-On first startup, Vecto Coder creates `~/.vecto/` and an empty `~/.vecto/.env` template. Provider definitions load from `~/.vecto/providers/`. To use portable environment credentials, add a variable to `~/.vecto/.env` and reference it from a provider definition. **Never put real keys in workspace files or share them publicly.**
+On first startup, Vecto Coder creates `~/.vecto/` and an empty `~/.vecto/.env` template. Provider definitions load from the single `~/.vecto/providers/providers.json` manifest; older protocol-specific provider files are migrated automatically. Each entry declares its API type with `protocol` (for example `openai-chat-completions`, `openai-responses`, `anthropic-messages`, `ollama`, or `custom-http`). To use portable environment credentials, add a variable to `~/.vecto/.env` and reference it from a provider definition. **Never put real keys in workspace files or share them publicly.**
 
 ---
 
