@@ -1,7 +1,7 @@
 {
   "channel": "test",
   "extensionId": "developeraman.vecto-coder-test",
-  "version": "1.2.0",
-  "file": "vecto-coder-test-1.2.0.vsix",
-  "sha256": "9d51d4a7ba681284c7a21cd38d1f9c51c3b1d3b898909cf83eecfdff02f848b2"
+  "version": "1.2.1",
+  "file": "vecto-coder-test-1.2.1.vsix",
+  "sha256": "b1ef835332d187d232fd4f26955c793d910109c8e79242f2f77e0aff9391273f"
 }
