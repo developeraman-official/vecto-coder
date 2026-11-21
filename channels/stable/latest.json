@@ -1,7 +1,7 @@
 {
   "channel": "stable",
   "extensionId": "developeraman.vecto-coder",
-  "version": "1.2.1",
-  "file": "vecto-coder-1.2.1.vsix",
-  "sha256": "9e90a9ab8b7093a0136fd3019cc031e8158bfd7678fb7413794bba82b56b3aa3"
+  "version": "1.3.0",
+  "file": "vecto-coder-1.3.0.vsix",
+  "sha256": "91d1972c216936c78f0ef8f0447099fc889ceaafc93db54f070aef1ec9069e1b"
 }
