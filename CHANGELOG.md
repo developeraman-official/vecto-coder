@@ -2,6 +2,41 @@
 
 All notable Vecto Coder changes are recorded here. Versions follow SemVer. Stable releases use `X.Y.Z`; beta and test releases use `X.Y.Z-beta.N` and `X.Y.Z-test.N` and are packaged under separate extension identities.
 
+## 1.3.0
+Rework chat UI, terminal handling, agent rules; add tests
+
+UI
+- Premium chat UI; compact one-line activity rows with file chips
+- Turn layout: intro, closed "Completed N steps" group, final answer
+- Edited rows open the diff in the editor; exact read ranges only
+- Composer: large paste becomes pasted.txt, file picker, drag and drop;
+  attachments saved to .vecto/attachments and sent to the agent
+- Stop button always stops
+
+Terminal
+- Commands get ids; full output stored and cleaned
+- read_terminal_output and stop_terminal_command tools; agent chooses
+  output mode and size; failures show assertion details
+- Long commands hand control back; closed or interrupted commands are
+  reported as stopped, not failed
+- Stop escalates to killing the process tree
+
+Agent
+- Completes only after a passing verification; no stopping between steps
+- Read-before-edit guard; automatic diagnostics after each edit
+
+
+## 1.2.1 
+
+- Pacth fixes across terminal and other
+
+## 1.2.0
+
+- Enginering grade standards  added
+- Project type detection to work across android,web ,react native flutter , fixed the context compaction to adaptive by models 
+- Overall  project system orchestrations bugs  fixed
+
+
 ## 1.1.3
 
 - Refresh the chat home with guided starting points, clearer product capabilities, recent-chat continuity, and a direct feature-request path.
@@ -76,8 +111,3 @@ All notable Vecto Coder changes are recorded here. Versions follow SemVer. Stabl
 - Use Vecto-only configuration, credentials, task history, view IDs, and command IDs under `.vecto` locations.
 - Publish user-facing Terms and Conditions and Privacy Policy, including clear provider-controlled data handling notes.
 - Include the legal documents and Kilo Gateway provider configuration in every release channel package.
-
-## 0.1.3
-
-- Added isolated stable, beta, and test release channels with checksum-verified updates.
-- Added Vecto Coder user configuration and workspace task-history migration paths.
